@@ -25,7 +25,7 @@ export default function Layout() {
         <Header />
 
         {/* Page content */}
-        <div style={{ padding: '28px 32px', flex: 1, maxWidth: 1440, width: '100%' }}>
+        <div style={{ padding: '28px 32px', flex: 1, maxWidth: 1440, width: '100%', margin: '0 auto', boxSizing: 'border-box' }}>
           <Outlet />
         </div>
       </main>
